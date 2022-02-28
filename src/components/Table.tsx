@@ -19,6 +19,7 @@ const Table: React.FC = () => (
         <TH>ORDER VOLUME</TH>
       </THead>
       <TMargin />
+      <TMargin />
       <TBody>
         <TR>
           <TH>353</TH>
@@ -26,6 +27,7 @@ const Table: React.FC = () => (
           <TH>Black Sand Magic</TH>
           <TH>135,33 €</TH>
         </TR>
+        <TMargin />
         <TR>
           <TH>353</TH>
           <TH>31.01.2022</TH>

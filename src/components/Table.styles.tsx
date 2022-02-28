@@ -26,7 +26,7 @@ export const THead = styled.thead`
 `;
 
 export const TMargin = styled.div`
-    height: 23px;
+    height: 11px;
 `;
 
 export const TBody = styled.tbody`
