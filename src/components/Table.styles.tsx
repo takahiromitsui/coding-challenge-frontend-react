@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
-export const TFrame = styled.table`
+export const TContainer = styled.div`
     padding: 27px 23px;
+    background: #26262c;
+    width: 789px;
+`;
+
+export const TFrame = styled.table`
     background: #26262c;
     font-size: 20px;
     font-style: normal;
@@ -9,6 +14,7 @@ export const TFrame = styled.table`
     text-align: left;
     color: #fafafa;
     width: 789px;
+    border-collapse: collapse;
 `;
 
 export const THead = styled.thead`
@@ -16,9 +22,15 @@ export const THead = styled.thead`
     font-weight: 400;
     line-height: 25px;
     position: relative;
+    border-bottom: solid 2px #c4c4c4;
+`;
+
+export const TMargin = styled.div`
+    height: 23px;
 `;
 
 export const TBody = styled.tbody`
+    margin-top: 23px;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
