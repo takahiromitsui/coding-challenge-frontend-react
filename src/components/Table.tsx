@@ -9,6 +9,7 @@ const Table: React.FC = () => (
       <TH>NR</TH>
       <TH>DATE</TH>
       <TH>PRODUCT NAME</TH>
+      <TH>ORDER VOLUME</TH>
     </THead>
     <TBody>
       <TR>
